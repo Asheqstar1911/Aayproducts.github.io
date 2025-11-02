@@ -1,8 +1,8 @@
 const products = [
-    { id: 1, name: "Varna AAY", price: 1, img: "Varna.jpg" },
-    { id: 2, name: "Sannvi", price: 0.000001, img: "janvi.jpg" },
-    { id: 3, name: "Nuwettha", price: 4, img: "Nuwettha.jpg" },
-    { id: 4, name: "sreastha", price: 3, img: "sreastha.jpg" },
+    { id: 1, name: "Varna AAY", price: 100, img: "Varna.jpg" },
+    { id: 2, name: "Sannvi", price: 100000000, img: "janvi.jpg" },
+    { id: 3, name: "Nuwettha", price: 4000000, img: "Nuwettha.jpg" },
+    { id: 4, name: "sreastha", price: 3000000, img: "sreastha.jpg" },
     { id: 5, name: "Ashrith", price: 2500000, img: "Ashrith.jpg" },
     { id: 6, name: "Harsha", price: 30000000, img: "Harsha.png" },
     { id: 7, name: "Aryan", price: 500000000, img: "Aryan.jpg" },
@@ -86,4 +86,5 @@ const products = [
     updateCart();
     cartSection.classList.add("hidden");
   };
+
   
